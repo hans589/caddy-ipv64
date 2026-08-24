@@ -11,7 +11,6 @@ Der Hauptzweck dieses Images ist die automatische Abwicklung der Let's Encrypt /
 *   **Multi-Stage Build:** Kompiliert das offizielle Caddy-Image mit dem IPv64-Plugin via `xcaddy`.
 *   **Automated Builds:** Eine GitHub Action baut das Image bei jedem Push auf den `main`-Branch sowie jeden Montag um 02:00 Uhr morgens automatisch neu, um Caddy- und Plugin-Updates mitzunehmen.
 *   **Unraid-Ready:** Da das Image auf GHCR öffentlich gehostet wird, kann Unraid die Update-Prüfung nativ in der Docker-GUI durchführen.
-
 ---
 
 ## 🛠️ GitHub Container Registry (GHCR)
